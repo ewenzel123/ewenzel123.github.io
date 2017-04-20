@@ -1,1 +1,18 @@
+body {
+  color: purple;
+  background-color: #DDDCB3;
+  font-family: Arial;
+}
+a {
+  color: purple;
+  font-family: Arial;
+}
 
+img {
+  width: 400px; height: 250px;
+}
+
+ol {
+  color: purple;
+  font-family: Arial;
+}
