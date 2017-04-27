@@ -9,7 +9,10 @@ a {
 }
 
 img {
-  width: 400px; height: 250px;
+  border-style: solid;
+  width: 300px;
+    border: 25px solid yellow;
+    margin: auto;
 }
 h1 {
   border-style: solid;
