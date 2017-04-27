@@ -6,6 +6,10 @@ body {
 }
 a {
   color: yellow;
+  background-color: black;
+  text-align: center;
+    border: 5px solid yellow;
+    margin: auto;
 }
 
 img {
