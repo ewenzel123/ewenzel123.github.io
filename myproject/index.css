@@ -7,15 +7,16 @@ body {
     display: flex;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-    width: 560px;
-    height: ;
+    width: 100%;
+    margin: auto;
     background-color: lightgrey;
 }
 
 .aboutme {
+    text-align: center;
     background-color: #FFC300;
     color: #AD213A;
-    width: 120px;
+    width: 300px;
     height: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -24,9 +25,10 @@ body {
 }
 
 .favorites {
+    text-align: center;
     background-color: #E1941D;
     color: purple;
-    width: 120px;
+    width: 300px;
     height: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -35,9 +37,10 @@ body {
 }
 
 .contact {
+     text-align: center;
     background-color: #AD213A;
     color: #FFC300;
-    width: 120px;
+    width: 300px;
     height: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
