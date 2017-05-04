@@ -1,50 +1,27 @@
 body {
-  background-color: #F7F4E3;
+  color: yellow;
+  background-color: #DDDCB3;
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/01120/blackballs_1120775i.jpg");
+  font-family: Arial;
 }
-
-.flex-container {
-    
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    width: 100%;
+a {
+  color: yellow;
+  background-color: black;
+  text-align: center;
+    border: 5px solid yellow;
     margin: auto;
-    background-color: lightgrey;
 }
 
-.aboutme {
-    text-align: center;
-    background-color: #FFC300;
-    color: #AD213A;
-    width: 300px;
-    height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
+img {
+  border-style: solid;
+  width: 300px;
+    border: 25px solid yellow;
+    margin: auto;
 }
-
-.favorites {
-    text-align: center;
-    background-color: #E1941D;
-    color: purple;
-    width: 300px;
-    height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.contact {
-     text-align: center;
-    background-color: #AD213A;
-    color: #FFC300;
-    width: 300px;
-    height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
+h1 {
+  border-style: solid;
+  width: 300px;
+    border: 25px solid yellow;
+    padding: 25px;
+    margin: auto;
 }
