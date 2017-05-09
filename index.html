@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
+  <style>
+    body {
+  background-color: #F7F4E3;
+}
+
 .flex-container {
+    
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    width: 400px;
-    height: 250px;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
     background-color: lightgrey;
 }
 
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+.aboutme {
+    text-align: center;
+    background-color: #FFC300;
+    color: #AD213A;
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
-</style>
+
+.favorites {
+    text-align: center;
+    background-color: #E1941D;
+    color: purple;
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact {
+     text-align: center;
+    background-color: #AD213A;
+    color: #FFC300;
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  </style>
+
 </head>
 <body>
 
 <div class="flex-container">
-  <div class="flex-item">flex item 1</div>
-  <div class="flex-item">flex item 2</div>
-  <div class="flex-item">flex item 3</div>  
+  <div class="aboutme"><a href="aboutme"><strong>About Me</strong></a></div>
+  <div class="favorites"><a href="favorites"><strong>Favorites</strong></a></div>
+  <div class="contact"><a href="contactme"><strong>Contact Me</strong></a></div>  
 </div>
 
 </body>
