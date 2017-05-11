@@ -1,11 +1,12 @@
 body {
   background-color: #F7F4E3;
+  background-image: url("http://images.all-free-download.com/images/graphicthumb/blue_water_background_image_5_169469.jpg");
 }
 h1 {
   font-family: Arial;
   color: red;
 }
 h9 {
-  color: blue;
+  color: orange;
   font-family: Verdana;
 }
