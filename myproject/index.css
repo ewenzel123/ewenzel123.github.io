@@ -1,1 +1,11 @@
-
+body {
+  background-color: #F7F4E3;
+}
+h1 {
+  font-family: Arial;
+  color: red;
+}
+h9 {
+  color: blue;
+  font-family: Verdana;
+}
